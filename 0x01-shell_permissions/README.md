@@ -8,7 +8,5 @@ Below are the different types of permissions that can be used in Linux
 4       r--
 3       -wx
 2       -w-
-1       --1
+1       --x
 ```
-
-
