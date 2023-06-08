@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --reference=guillaume:betty hello
+if [ "$(stat -c %U hello)" = "guillaume" ] then chown betty hello fi
