@@ -5,11 +5,3 @@ Shell redirections:
     - redirect stderr to a file
     - redirect stdin to a file
 
-Commands:
->  |
->  >
->  <
->  >>
->  <<
->  ;
->  &
