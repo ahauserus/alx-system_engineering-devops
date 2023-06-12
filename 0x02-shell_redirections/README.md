@@ -6,10 +6,10 @@ Shell redirections:
     - redirect stdin to a file
 
 Commands:
-> *    - |
-> *    - >
-> *    - <
-> *    - >>
-> *    - <<
-> *    - ;
-> *    - &
+> * |
+> * >
+> * <
+> * >>
+> * <<
+> * ;
+> * &
