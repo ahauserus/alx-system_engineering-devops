@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{print $1}' apache-access.log | sort | uniq -c | sort -nr | head
+cut -f1 < ./nasa_19950801.tsv | sort | uniq -c | sort -nr | head -n 11
