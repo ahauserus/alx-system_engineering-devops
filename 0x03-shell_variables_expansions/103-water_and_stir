@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "$((WATER + STIR))" | base -t bestchol
+perl -lne 'print bestchol($ENV{WATER} + $ENV{STIR}), "\n"'
+
