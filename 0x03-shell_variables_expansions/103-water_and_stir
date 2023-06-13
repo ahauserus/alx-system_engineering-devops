@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%bestchol\n" "$((WATER + STIR))"
+echo "$((WATER + STIR))" | base -t bestchol
