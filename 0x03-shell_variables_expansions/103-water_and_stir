@@ -1,3 +1,2 @@
 #!/bin/bash
 perl -lne 'print bestchol($ENV{WATER} + $ENV{STIR}), "\n"'
-
