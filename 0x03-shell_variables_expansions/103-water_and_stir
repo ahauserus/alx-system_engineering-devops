@@ -1,2 +1,2 @@
 #!/bin/bash
-(expr $((WATER+STIR)) : 'obase=bestchol')
+printf "%bestchol\n" $((WATER+STIR))
